@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CGameUI">
+      <UniqueIdentifier>{eea73d5d-4d68-46c3-9184-461c1c5db7d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameConst">
+      <UniqueIdentifier>{26fa0832-9d54-4fed-919f-cdd5c37c7c17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CThread">
+      <UniqueIdentifier>{4c2949ec-2bb2-49e6-9a06-a964abe6cec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CTank">
+      <UniqueIdentifier>{dd0bee50-f492-4847-8503-43c97bc764a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPosition">
+      <UniqueIdentifier>{9d86c840-1ad0-48ff-b611-ea7db3543901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CBullet">
+      <UniqueIdentifier>{f89f4734-83d7-4092-b0f6-0656557fa9fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CGame">
+      <UniqueIdentifier>{d3e3c878-59e7-4629-b05a-19393084e895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CRobot">
+      <UniqueIdentifier>{4a11dadb-0e9e-44c7-a0f2-fcf4988f3bbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPlayer">
+      <UniqueIdentifier>{689923d6-7ab3-4f7d-b932-89c82ce8550d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSound">
+      <UniqueIdentifier>{eeae5576-d09f-4450-a1f4-9e02ccde27f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CBarrier">
+      <UniqueIdentifier>{c7be6131-a508-4419-b8e9-f03aacf379ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CLifeEntity">
+      <UniqueIdentifier>{e2225ea7-9859-4c5e-9baf-f84a5e7da7ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CBuffer">
+      <UniqueIdentifier>{038d4edb-beb6-4db6-a95c-908656714d0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMapFile">
+      <UniqueIdentifier>{9da8a444-449d-4652-8bde-659bd8be7bcb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameUI.cpp">
+      <Filter>CGameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameConst.cpp">
+      <Filter>GameConst</Filter>
+    </ClCompile>
+    <ClCompile Include="CPosition.cpp">
+      <Filter>CPosition</Filter>
+    </ClCompile>
+    <ClCompile Include="CThread.cpp">
+      <Filter>CThread</Filter>
+    </ClCompile>
+    <ClCompile Include="CLifeEntity.cpp">
+      <Filter>CLifeEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="CTank.cpp">
+      <Filter>CTank</Filter>
+    </ClCompile>
+    <ClCompile Include="CBullet.cpp">
+      <Filter>CBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame.cpp">
+      <Filter>CGame</Filter>
+    </ClCompile>
+    <ClCompile Include="CRobot.cpp">
+      <Filter>CRobot</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>CPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="CSound.cpp">
+      <Filter>CSound</Filter>
+    </ClCompile>
+    <ClCompile Include="CBarrier.cpp">
+      <Filter>CBarrier</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLoop.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CBuffer.cpp">
+      <Filter>CBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="CMapFile.cpp">
+      <Filter>CMapFile</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CGameUI.h">
+      <Filter>CGameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameConst.h">
+      <Filter>GameConst</Filter>
+    </ClInclude>
+    <ClInclude Include="CPosition.h">
+      <Filter>CPosition</Filter>
+    </ClInclude>
+    <ClInclude Include="CThread.h">
+      <Filter>CThread</Filter>
+    </ClInclude>
+    <ClInclude Include="CLifeEntity.h">
+      <Filter>CLifeEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="CTank.h">
+      <Filter>CTank</Filter>
+    </ClInclude>
+    <ClInclude Include="CBullet.h">
+      <Filter>CBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame.h">
+      <Filter>CGame</Filter>
+    </ClInclude>
+    <ClInclude Include="CRobot.h">
+      <Filter>CRobot</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>CPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="CSound.h">
+      <Filter>CSound</Filter>
+    </ClInclude>
+    <ClInclude Include="CBarrier.h">
+      <Filter>CBarrier</Filter>
+    </ClInclude>
+    <ClInclude Include="CBuffer.h">
+      <Filter>CBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="CMapFile.h">
+      <Filter>CMapFile</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
